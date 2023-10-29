@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap);
+
+
+html {
+    font-family: sans-serif;
+}
+:root {
+    --accent-color: #FF0000;
+    --light-gray: rgba(0, 0, 0, 0.1);
+    --main-color: rgb(0, 128, 0);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background-color: var(--light-gray);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+li, a, button{
+    font-family: "montserrat"; 
+    font-weight: 500;
+    font-size: 16px;
+    color: blue;
+    text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo{
+    cursor: pointer;
+    font-size: small;
+    width: 3%;
+    border-radius: 30%;
+}
+
+.navbar{
+    list-style: none;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navbar li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover{
+    color: #0088a9;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.text-center {
+    color: var(--main-color);
+}
+
+.description {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #143774;
+    margin-top: 0;
+}
+
+.description {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.Photo {
+    width: 70px;
 }
