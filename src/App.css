@@ -83,3 +83,13 @@ button:hover{
 .Photo {
     width: 70px;
 }
+
+.button {
+    box-shadow: 3px 3px 5px var(--light-gray), -1px -1px 2px var(--light-gray);
+    border: none;
+    transition: scale .2s ease;
+    user-select: none;
+    line-height: 1;
+    cursor: pointer;
+    background: var(--light-gray);
+}

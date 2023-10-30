@@ -3,7 +3,7 @@ import PPhoto from "./asset/DanoLogo.jpg"
 {/* here is the product details */}
 const Product = {
     name: 'Dano Milk',
-    price: '$50.00',
+    price: <button className="button">$50.00</button>,
     description: `A skimmed milk infused with vegetable fat popular in Bangladesh,
                 Can be enjoyed hot or cold and provides energy and nourishment at any time of the day,
             Dano Full Cream Powder Milk,
