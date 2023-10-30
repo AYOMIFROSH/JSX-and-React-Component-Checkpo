@@ -1,0 +1,9 @@
+:root {
+    --accent-color: #FF0000;
+    --light-gray: rgba(0, 0, 0, 0.1);
+    --main-color: rgb(0, 128, 0);
+}
+
+body{
+    background-color: var(--light-gray);
+}
