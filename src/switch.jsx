@@ -1,5 +1,6 @@
 import React from "react";
-import PIC from "./asset/ReactLogo.jpg"
+import PIC from "./asset/navLogo.jpg"
+
 {/* adding a navbar */}
 const Switch = () => {
     return (
